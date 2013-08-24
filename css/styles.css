@@ -1,0 +1,250 @@
+html, body {
+  background-color: #fafafa;
+  background-image: url("../img/bg_body.png");
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+/* Common CSS */
+
+/* !Common CSS */
+
+/* Header */
+header {
+  height: 166px;
+  overflow: hidden;
+  background-image: url("../img/bg_header.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 115px;
+  position: relative;
+}
+
+header a,
+header a:hover,
+header a:visited,
+header a:active {
+  color: #353535;
+}
+
+header ul {
+  position: absolute;
+  right: 45px;
+  bottom: 25px;
+  text-align: left;
+  list-style: none;
+  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 100;
+}
+/* !Header */
+
+/* Main menu */
+.main-menu {
+  list-style: none;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-menu li {
+  display: inline;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0 6px;
+  border-radius: 4px;
+}
+
+.main-menu > li {
+  padding-bottom: 6px;
+}
+
+.main-menu li,
+.main-menu li a {
+  color: #353535;
+}
+
+.main-menu > li:hover,
+.main-menu > li:active {
+  text-decoration: none;
+}
+
+.main-menu li:hover > ul,
+.main-menu li:active > ul {
+  opacity: 1;
+  left: 0;
+  z-index: 999;
+}
+
+.main-menu li > ul {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 6px;
+  left: -50%;
+  line-height: 22px;
+  padding: 10px 0;
+}
+
+.main-menu li:hover > ul,
+.main-menu li:active > ul,
+.main-menu li > ul {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.main-menu li > ul li {
+  white-space: nowrap;
+  font-size: 18px;
+  padding: 0 5px;
+}
+
+.main-menu li > ul li,
+.main-menu li > ul li a,
+.main-menu li:hover,
+.main-menu li:hover a {
+  color: #fff;
+}
+
+.main-menu li.polystyrene > ul,
+.main-menu li.polystyrene:hover {
+  background-color: #8f5d30;
+}
+
+.main-menu li.polystyrene > ul li:hover {
+  background-color: #af7d50;
+}
+
+.main-menu li.certs > ul,
+.main-menu li.certs:hover {
+  background-color: #30518f;
+}
+
+.main-menu li.certs > ul li:hover {
+  background-color: #5071af;
+}
+
+.main-menu li.for-clients > ul,
+.main-menu li.for-clients:hover {
+  background-color: #308f66;
+}
+
+.main-menu li.for-clients > ul li:hover {
+  background-color: #50af86;
+}
+
+.main-menu li.contacts > ul,
+.main-menu li.contacts:hover {
+  background-color: #8f3030;
+}
+
+.main-menu li.contacts > ul li:hover {
+  background-color: #af5050;
+}
+
+.main-menu li.polystyrene,
+.main-menu li.polystyrene:hover,
+.main-menu li.certs,
+.main-menu li.certs:hover,
+.main-menu li.for-clients,
+.main-menu li.for-clients:hover {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+/* !Main menu */
+
+.content {
+  margin-bottom: 40px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.content,
+.content p {
+  font-weight: 300;
+}
+
+.content .slideshow-wrapper {
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 125px;
+  font-family: "Roboto", Arial, sans-serif;
+  /*background-color: #333;*/
+  background: #294782;
+  background: -moz-linear-gradient(top, #4068b9, #294782);
+  background: -webkit-gradient(linear, left top, left bottom, 
+              color-stop(0%,#4068b9), color-stop(100%,#294782));
+  background: -webkit-linear-gradient(top, #4068b9, #294782);
+  background: -o-linear-gradient(top, #4068b9, #294782);
+  background: -ms-linear-gradient(top, #4068b9, #294782);
+  background: linear-gradient(top, #4068b9, #294782);
+}
+
+footer,
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+footer .footer-container {
+  position: relative;
+  height: 125px;
+  background-image: url("../img/bg_footer.png");
+  background-repeat: no-repeat;
+  background-position: left 20px top 15px;
+}
+
+footer .copyright {
+  position: absolute;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  bottom: 5px;
+  left: 20px;
+}
+
+footer .links {
+  position: absolute;
+  top: 37px;
+  left: 162px;
+  font-weight: 500;
+}
+
+footer .links li {
+  display: inline;
+  padding: 0 5px;
+}
+
+footer .contacts {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  list-style: none;
+}
+
+footer .contacts li {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+footer .contacts a {
+  text-decoration: underline;
+}

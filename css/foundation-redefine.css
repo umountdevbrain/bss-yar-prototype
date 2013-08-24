@@ -1,0 +1,7 @@
+.row {
+  max-width: none;
+}
+
+.orbit-timer {
+  display: none !important;
+}
