@@ -167,6 +167,7 @@ header ul {
 }
 /* !Main menu */
 
+/* Content */
 .content {
   margin-bottom: 40px;
   font-family: "Roboto", Arial, sans-serif;
@@ -180,7 +181,9 @@ header ul {
 .content .slideshow-wrapper {
   margin-bottom: 20px;
 }
+/* !Content */
 
+/* Footer */
 footer {
   height: 125px;
   font-family: "Roboto", Arial, sans-serif;
@@ -248,3 +251,4 @@ footer .contacts li {
 footer .contacts a {
   text-decoration: underline;
 }
+/* !Footer */
