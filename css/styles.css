@@ -117,7 +117,16 @@ header ul {
   color: #fff;
 }
 
-.main-menu li.polystyrene > ul,
+.main-menu li > ul,
+.main-menu li:hover {
+  background-color: #6088d9;
+}
+
+.main-menu li > ul li:hover {
+  background-color: #80a8f9;
+}
+
+/*.main-menu li.polystyrene > ul,
 .main-menu li.polystyrene:hover {
   background-color: #8f5d30;
 }
@@ -151,8 +160,9 @@ header ul {
 
 .main-menu li.contacts > ul li:hover {
   background-color: #af5050;
-}
+}*/
 
+.main-menu li,
 .main-menu li.polystyrene,
 .main-menu li.polystyrene:hover,
 .main-menu li.certs,
